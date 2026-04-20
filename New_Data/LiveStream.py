@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
 from typing import List, Tuple
 import plotly.express as px
 from datetime import date, time, datetime
@@ -18,9 +19,11 @@ st.set_page_config(
 
 alt.themes.enable("dark")
 
-data_socie = "./data_societe.csv"
-data_scien = "./data_sciences.csv"
-data_eco = "./data_economie.csv"
+BASE_DIR = Path(__file__).resolve().parent
+
+data_socie = BASE_DIR / "data_societe.csv"
+data_scien = BASE_DIR / "data_sciences.csv"
+data_eco = BASE_DIR / "data_economie.csv"
 
 df_socie = pd.read_csv(data_socie)
 df_scien = pd.read_csv(data_scien)
