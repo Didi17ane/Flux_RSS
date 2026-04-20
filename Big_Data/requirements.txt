@@ -1,9 +1,9 @@
 streamlit
 pandas
 numpy
-matplotlib.pyplot
-plotly.express
+matplotlib
+plotly.
 datetime
-numerize.numerize
+numerize
 streamlit_elements
 altair 
