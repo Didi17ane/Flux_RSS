@@ -21,9 +21,9 @@ alt.themes.enable("dark")
 
 BASE_DIR = Path(__file__).resolve().parent
 
-data_socie = BASE_DIR / "data_societe.csv"
-data_scien = BASE_DIR / "data_sciences.csv"
-data_eco = BASE_DIR / "data_economie.csv"
+data_socie = BASE_DIR / "../New_Data/data_societe.csv"
+data_scien = BASE_DIR / "../New_Data/data_sciences.csv"
+data_eco = BASE_DIR / "../New_Data/data_economie.csv"
 
 df_socie = pd.read_csv(data_socie)
 df_scien = pd.read_csv(data_scien)
