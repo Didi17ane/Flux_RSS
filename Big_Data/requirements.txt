@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+matplotlib.pyplot
+plotly.express
+datetime
+numerize.numerize
+streamlit_elements
+altair 
