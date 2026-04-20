@@ -18,9 +18,9 @@ st.set_page_config(
 
 alt.themes.enable("dark")
 
-data_socie = "../New_Data/data_societe.csv"
-data_scien = "../New_Data/data_sciences.csv"
-data_eco = "../New_Data/data_economie.csv"
+data_socie = "./data_societe.csv"
+data_scien = "./data_sciences.csv"
+data_eco = "./data_economie.csv"
 
 df_socie = pd.read_csv(data_socie)
 df_scien = pd.read_csv(data_scien)
